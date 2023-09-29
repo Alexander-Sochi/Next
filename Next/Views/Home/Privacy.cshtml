@@ -1,0 +1,259 @@
+﻿@{
+
+}
+<h1>@ViewData["Title"]</h1>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Изменить заявку на оплату</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Заявка</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Согласование</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Вложение</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Журнал</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Контрагент</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Операции</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Оплата (0,00)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Корректировка</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-5">
+                                    <div class="txt"><span>Период</span></div>
+                                    <input class="text form-control" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="txt"><span>Организация</span></div>
+                                    <input class="text form-control" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-11">
+                                    <div class="txt"><span>Статья</span></div>
+                                    <input class="text form-control article" />
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="payment">
+                                    <div class="payment-month">
+                                        <div class="payment-mounth_title">
+                                            <span>Месяц:</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Лимит</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>500,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Согласовано</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>0,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>На соглас.</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>500,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Оплачено</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>500,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Остаток</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>0.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payment ">
+                                    <div class="payment-month">
+                                        <div class="payment-mounth_title">
+                                            <span name="year">&emsp; Год:</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Лимит</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>500,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Согласовано</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>0,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>На соглас.</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>500,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Оплачено</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>500,00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="payment-mounth_limits">
+                                            <div class="payment-mounth_txt">
+                                                <span>Остаток</span>
+                                            </div>
+                                            <div class="payment-mounth_price">
+                                                <span>0.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-3 price">
+                                    <div class="txt"><span>Cумма</span></div>
+                                    <input class="text form-control" />
+                                </div>
+                                <div class="col-md-4 nds">
+                                    <div class="txt"><span>НДС</span></div>
+                                    <select class="phone" id="phone" name="phone" ;>
+                                    </select>
+                                    <input class="text form-control" />
+                                </div>
+                                <div class="col-md-4 source ">
+                                    <div class="txt"><span>Источник</span></div>
+                                    <input class="text form-control" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="date">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-2 date">
+                                        <div class="txt date"><span>Дата заявки</span></div>
+                                        <input class="text form-control" />
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-4 date">
+                                        <div class="txt date"><span>Оплатить до</span></div>
+                                        <input class="text form-control" />
+                                    </div>
+
+                                    <div class="col-md-2 date">
+                                        <div class="txt date"><span>Дата опалаты</span></div>
+                                        <input class="text form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-11">
+                                    <div class="txt"><span>Примечание</span></div>
+                                    <input class="text form-control article" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-11">
+                                   <label for="story">Tell us your story:</label>
+                                <textarea id="story" name="story" rows="5" cols="33">
+                                It was a dark and stormy night...
+                                </textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="manual">
+                                    <input type="checkbox" id="manual" name="manual" />
+                                    <label for="manual">Ручной ввод</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,120 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.application{
+    display: flex;
+    
+}
+.modal-content {
+    width: 1001px;
+    height: 849px;
+    
+}
+.phone {
+    width: 114px;
+    background-color: #eeeeee;
+    height: 34px;
+}
+.card{
+ background-color: #F9F9F9;
+}
+.modal-body {
+   
+}
+.row {
+    margin-top: 15px;
+}
+.col-md-6 {
+    display: flex;
+}
+.col-md-6 input {
+  width: 306px;
+  height: 34px;
+  background-color: #eeeeee;
+}
+.col-md-11 {
+    display: flex;
+}
+.txt {
+    padding-right: 10px;
+}
+.modal-header {
+    background-color: #333333;
+    color: white;
+}
+.paragraph p {
+    padding-right:10px;
+}
+.col-md-5  {
+    display: flex;
+}
+.col-md-5 input {
+    width: 218px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+.article  {
+    width: 747px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+.price input {
+    width: 109px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+.nds input {
+    width: 114px;
+    height: 34px;
+    display: flex;
+    background-color: #eeeeee;
+}
+
+.source input {
+    width: 181px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+.col-md-4{
+    display: flex;
+}
+.price{
+    display:flex;
+}
+.nds {
+    display: flex;
+    justify-content: space-between;
+}
+.application input {
+    width: 135px;
+    height: 34px;
+    background-color: #eeeeee;
+}
+
+.payment-mounth_limits {
+    display: flex;
+    justify-content: space-evenly;
+}
+.date{
+    display:flex;
+}
+.date input {
+   width: 135px;
+   height: 34px;
+    background-color: #eeeeee;
+}
+
+.date span{
+    margin-right:0px;
+}
+.payment {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #AAAAAA;
+    padding-bottom: 10px;
+}
+.note {
+background-color:white;
+width:795px;
+height:54px;
+}
